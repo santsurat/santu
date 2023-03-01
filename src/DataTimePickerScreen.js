@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
 import DateTimePickerModal from "react-native-modal-datetime-picker";
-import { Colors } from "react-native/Libraries/NewAppScreen";
+
 
 
 const DateTimePickerScreen = () => {

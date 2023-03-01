@@ -1,10 +1,10 @@
 import React from "react";
 import { View, Text, StyleSheet, TouchableOpacity, ScrollView , TextInput} from "react-native";
 import Background from "./Background";
-import Field from "./Field";
 import Btn from "./Btn"
 import { darkGreen } from "./Constant";
-import DateTimePickerScreen from "./DateTimePickerScreen";
+import DateTimePickerScreen from "./DataTimePickerScreen";
+
 
 
 
@@ -26,7 +26,7 @@ const Signup = (props) => {
                     <TextInput  style={styles.BContainer}placeholder="Contact number" />
                     <TextInput  style={styles.BContainer}placeholder="Password" secureTextEntry={true} />
                     
-                    <DateTimePickerScreen />
+                  <DateTimePickerScreen />
                     
                     <Text style={styles.DContainer}>By signing in ,you-agree to our ?</Text>
                     <Text style={styles.IContainer}>Terms & Conditions</Text>
